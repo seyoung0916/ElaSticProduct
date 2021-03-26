@@ -19,10 +19,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-starter-batch'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'net.logstash.logback:logstash-logback-encoder:6.3'
     runtime 'com.h2database:h2'
     runtime 'mysql:mysql-connector-java'
     compileOnly 'org.projectlombok:lombok'

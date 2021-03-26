@@ -1,1 +1,3 @@
-logging.config=logback.xml
+logging:
+  config:
+    classpath: logback.xml
